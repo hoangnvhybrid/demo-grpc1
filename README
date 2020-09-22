@@ -1,0 +1,5 @@
+go get -u google.golang.org/grpc
+Link reference
+https://go.googlesource.com/grpc-review/+/refs/heads/master/examples
+https://medium.com/@dongnguyenltqb/%C4%91ua-t%E1%BB%91c-%C4%91%E1%BB%99-v%E1%BB%9Bi-protoco-buffer-b2c1fc4d7a5
+http://www.inanzzz.com/index.php/post/fczr/creating-a-simple-grpc-client-and-server-application-with-golang
