@@ -18,6 +18,7 @@ func main() {
 	//Thiết lập kết nối đến server
 	conn, err := grpc.Dial("localhost:50051", grpc.WithInsecure())
 	if err != nil {
+		//Log error
 		log.Fatalf("Did not connect: %v", err)
 	}
 	defer conn.Close()
